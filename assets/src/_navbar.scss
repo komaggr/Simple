@@ -1,0 +1,30 @@
+.navbar {
+  background-color: $blue;
+  height: 80px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__link {
+    padding-left: 40px;
+    text-decoration: none;
+    color: $white;
+    font-family: Aleo, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  &__link:first-child {
+    padding-left: 0;
+  }
+
+  &__link:hover {
+    color: $gray;
+  }
+}

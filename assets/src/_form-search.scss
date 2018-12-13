@@ -1,0 +1,47 @@
+.form-search {
+  display: flex;
+  flex-flow: row;
+  width: 650px;
+  height: 60px;
+
+  &__input {
+    width: 496px;
+    height: inherit;
+    background-color: white;
+    color: #999999;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+  }
+
+  &__btn {
+    position: relative;
+    width: 150px;
+    height: inherit;
+    text-align: left;
+    background-color: $blue;
+    color: $white;
+    padding-left: 36px;
+    border: 2px solid $white;
+    font-family: Aleo, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+  }
+
+  &__btn:hover {
+    background-color: $white;
+    color: #999999;
+  }
+
+  &__btn:after {
+    content: url("../img/search/itm_src.png");
+    position: absolute;
+    right: 17px;
+    top: 19px;
+  }
+}

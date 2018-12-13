@@ -1,0 +1,25 @@
+.scroll {
+  margin: 120px auto 0 auto;
+  height: 100px;
+  text-align: center;
+
+  &__link {
+    display: block;
+    top: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    text-decoration: none;
+    color: white;
+  }
+
+  &__marker {
+    transition: .5s ease-in-out;
+  }
+
+  &__link:hover + &__marker {
+    transform: translate(0, 50px);
+  }
+}

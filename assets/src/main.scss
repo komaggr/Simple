@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Aleo';
+  src: url('../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.woff') format('woff'),
+  url('../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@import 'variables';
+@import "wrapper";
+@import 'body';
+@import 'header';
+@import 'navbar';
+@import "aboutUS";
+@import "footer";
+@import "btn";
+@import "logo";
+@import "scroll";
+@import "form-search";
